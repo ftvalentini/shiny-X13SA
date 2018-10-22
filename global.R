@@ -4,6 +4,7 @@ pacs <- c("shiny",
           "readxl",
           "XLConnect",
           "seasonal",
+          "x13binary",
           "magrittr",
           "tidyr")
 newpacs <- pacs[!(pacs %in% installed.packages()[,"Package"])]

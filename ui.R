@@ -73,15 +73,16 @@ fluidPage(
                              p("3. Desestacionalizar y descargar
                         los resultados presionando",
                                span(strong("Run & Download"),"."),
-                               align = "justify"),
-                             hr(),
-                             p("Nota: descargar X13 desde ",
-                               a("el sitio del US Census Bureau", 
-                                 href="https://www.census.gov/srd/www/winx13/winx13_down.html"),
-                               "antes de utilizar la aplicación. El archivo ",
-                               strong("x13as.exe")," debe estar ubicado en el
-                               directorio C:/WinX13/x13as/ ",
                                align = "justify")
+                             # ,
+                             # hr(),
+                             # p("Nota: descargar X13 desde ",
+                             #   a("el sitio del US Census Bureau", 
+                             #     href="https://www.census.gov/srd/www/winx13/winx13_down.html"),
+                             #   "antes de utilizar la aplicación. El archivo ",
+                             #   strong("x13as.exe")," debe estar ubicado en el
+                             #   directorio C:/WinX13/x13as/ ",
+                             #   align = "justify")
                       )
              )
   ))

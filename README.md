@@ -7,4 +7,4 @@ How to use:
 2. Click *browse* to choose the file.
 3. Click *Run & Download* to run the seasonal adjustment and download the results.
 
-Before running the app, download the X13 distribution files from the [US Census Bureau website](https://www.census.gov/srd/www/winx13/winx13_down.html). x13as.exe must be located in C:/WinX13/x13as/ 
+~~Before running the app, download the X13 distribution files from the [US Census Bureau website](https://www.census.gov/srd/www/winx13/winx13_down.html). x13as.exe must be located in C:/WinX13/x13as/~~ 

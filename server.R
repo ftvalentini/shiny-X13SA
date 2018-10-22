@@ -348,7 +348,7 @@ function(input, output) {
     if (is.null(final_name)) return(NULL) else {
       imglist <- list.files("www")
       imgname <- imglist[sample(1:length(imglist),1)]
-      list(src=normalizePath("www/"%+%imgname),alt="img")
+      list(src=normalizePath("www/"%+%imgname),alt="img",width=400)
     }
   } )
   

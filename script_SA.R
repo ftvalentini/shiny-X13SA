@@ -1,8 +1,10 @@
 
 # Run only once? -----------------------------------------------------------
 
-Sys.setenv(X13_PATH = "C:/WinX13/x13as")
-# write('Sys.setenv(X13_PATH = "C:/WinX13/x13as")', file = "~/.Rprofile", append = TRUE)
+# activar si no se usa libreria x13binary:
+# Sys.setenv(X13_PATH = "C:/WinX13/x13as")
+
+## write('Sys.setenv(X13_PATH = "C:/WinX13/x13as")', file = "~/.Rprofile", append = TRUE)
 
 
 # parametros --------------------------------------------------------------
