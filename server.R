@@ -313,15 +313,13 @@ function(input, output) {
     content = function(file) {
       fname <- file%+%".xlsx"
       SA_dfs <- SA_data()
-      wb <- loadWorkbook(fname, create=T)
+      wb <- createWorkbook()
       hojas <- names(SA_dfs)
       for (i in hojas) {
-        createSheet(wb,name=i)
-        clearSheet(wb,sheet=i)
-        createName(wb,name=i,formula=i%+%"!$A$1",overwrite=T)
-        writeNamedRegion(wb,data=SA_dfs[[i]],name=i)
+        addWorksheet(wb, sheet=i)
+        writeData(wb, sheet=i, x=SA_dfs[[i]])
       }
-      saveWorkbook(wb)
+      saveWorkbook(wb,file=fname,overwrite=T)
       file.rename(fname,file)
     }
   )
