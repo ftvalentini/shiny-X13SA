@@ -1,4 +1,3 @@
-R
 if (!("shiny" %in% installed.packages()[,"Package"])) {
   install.packages("shiny")
 }
