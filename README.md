@@ -3,7 +3,7 @@
 
 How to use:
 
-1. Create .xlsx, .xls or .csv file with the time series on the first sheet. Multiple time series can be loaded. The first column should have dates formatted as dates and the first row, the names of the series. 
+1. Create .xlsx, .xls or .csv file with the time series on the first sheet. Multiple time series can be loaded. The first column should have dates formatted as dates and the first row should have the names of the series. 
 2. Click *browse* to choose the file.
 3. Click *Run & Download* to run the seasonal adjustment and download the results.
 
